@@ -21,7 +21,6 @@ SNMP
 [ Prometheus ] ----> [ Grafana ]
 |
 Exporters / Targets
-
 [ Ansible ]
 |
 Automation / Configuration Push
