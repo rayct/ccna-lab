@@ -31,6 +31,7 @@ Automation / Configuration Push
 
 
 ccna-lab/
+
 ├── prometheus/     # Prometheus configuration and scrape targets
 ├── grafana/        # Dashboards and provisioning configs
 ├── snmp/           # SNMP configs / MIBs / exporters
