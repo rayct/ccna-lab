@@ -1,0 +1,14 @@
+- name: Configure SNMP on Cisco device
+  hosts: cisco
+  gather_facts: no
+
+  tasks:
+    - name: Enable SNMP community (read-only)
+      ios_config:
+        lines:
+          - snmp-server community public RO
+
+    - name: Enable SNMP traps
+      ios_config:
+        lines:
+          - snmp-server enable traps
