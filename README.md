@@ -13,6 +13,7 @@ The stack combines:
 
 ## Architecture
 
+```text
 [ Network Devices ]
 |
 SNMP
@@ -24,16 +25,18 @@ Exporters / Targets
 [ Ansible ]
 |
 Automation / Configuration Push
-
+```
 
 ## Directory Structure
 
+```text
 ccna-lab/
 ├── prometheus/   # Prometheus configuration and scrape targets
 ├── grafana/      # Dashboards and provisioning configs
 ├── snmp/         # SNMP configs / MIBs / exporters
 ├── ansible/      # Playbooks and inventory
 └── README.md
+```
 
 ## Purpose
 
