@@ -1,8 +1,3 @@
-Here is a clean, structured `README.md` tailored to your project:
-
----
-
-```markdown
 # CCNA Lab Monitoring Stack
 
 This repository contains a lightweight monitoring and automation stack designed to support a CCNA lab environment. It integrates network telemetry, visualization, and configuration management tools to provide observability and repeatability.
@@ -18,7 +13,6 @@ The stack combines:
 
 ## Architecture
 
-```
 
 [ Network Devices ]
 |
@@ -32,11 +26,9 @@ Exporters / Targets
 |
 Automation / Configuration Push
 
-```
 
 ## Directory Structure
 
-```
 
 ccna-lab/
 ├── prometheus/     # Prometheus configuration and scrape targets
@@ -45,7 +37,6 @@ ccna-lab/
 ├── ansible/        # Playbooks and inventory
 └── README.md
 
-````
 
 ## Components
 
