@@ -13,7 +13,6 @@ The stack combines:
 
 ## Architecture
 
-
 [ Network Devices ]
 |
 SNMP
@@ -29,17 +28,22 @@ Automation / Configuration Push
 
 ## Directory Structure
 
-
 ccna-lab/
-
-├── prometheus/     # Prometheus configuration and scrape targets
-├── grafana/        # Dashboards and provisioning configs
-├── snmp/           # SNMP configs / MIBs / exporters
-├── ansible/        # Playbooks and inventory
+├── prometheus/   # Prometheus configuration and scrape targets
+├── grafana/      # Dashboards and provisioning configs
+├── snmp/         # SNMP configs / MIBs / exporters
+├── ansible/      # Playbooks and inventory
 └── README.md
 
+## Purpose
+
+This repository is designed to simulate and monitor a CCNA lab environment, providing:
+- Observability of network devices
+- Automated configuration management
+- Reproducible infrastructure setups
 
 ## Components
+
 
 ### Prometheus
 - Scrapes metrics from configured targets
