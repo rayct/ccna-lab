@@ -1,0 +1,2 @@
+ansible_password: password1234
+ansible_network_os: asa
